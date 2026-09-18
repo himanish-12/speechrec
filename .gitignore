@@ -1,0 +1,35 @@
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache & compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model checkpoints, data dumps & weights
+*.pt
+*.pth
+*.bin
+*.onnx
+model_weights.json
+
+# Audio datasets & raw audio captures
+train/*_out.json
+*.wav
+*.mp3
+*.flac
+
+# Local configuration & secrets
+.env
+.env.local
+*.log
+
+# Operating system / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
