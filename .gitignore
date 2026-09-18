@@ -33,3 +33,6 @@ train/*_out.json
 Thumbs.db
 .vscode/
 .idea/
+train/refdata.json
+train/refdata.json
+train/refdata.json
